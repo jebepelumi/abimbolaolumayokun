@@ -1,0 +1,105 @@
+:root{--primary-color: #0F52BA}
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-color:whitesmoke;
+}
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: whitesmoke;
+  }
+  @media (min-width: 600px) {
+    .jumbotron {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron h1 {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+      background-color: var(--primary-color);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  /* .ztext {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+
+.
+}
+.container{
+    max-width:480px;
+    margin:0 ;
+    padding:0 40px;
+    overflow: auto;} */
+.cardt{
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px  10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin: 10px;
+    color: #333; 
+}
+.languages .cardt{
+    text-align: center;
+    transition: transform 0.2s ease-in;
+}
+.languages .cardt:hover{
+    transform: translateY(35px);
+  
+}
+.mainheader{
+  background-color: white;
+  height: 500px;
+  max-width: auto;
+  color: #fff;
+  font-size: 8vw;
+  text-align: center;
+  font-family: "Sofia";
+  font-style: oblique;
+  overflow: visible;
+  position: relative;
+  animation-name: header;
+  animation-duration: 10s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes header{
+   0%{background-color: #fff;}
+   25%{background-color:#89CFF0}
+   50%{background-color: #7393B3;}
+   75%{background-color: #088F8F;}
+   100%{background-color: var(--primary-color);}
+}
+
